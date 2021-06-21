@@ -4,3 +4,12 @@
 > Sensitive data such as VM's user password has been stored in a 'key vault'
 
 To reproduce the lab:
+
+```
+git clone https://github.com/can-er/bootcamp-az-terraform
+cd bootcamp-az-terraform
+terraform init
+terraform validate
+terraform plan
+terraform apply
+```
