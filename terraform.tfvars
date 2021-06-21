@@ -1,5 +1,7 @@
+vm_username                 = # Must be set
 keyvault_name               = "kvUserPass"
 secret_name                 = "userpassword"
+secret_value                = # Must be set
 resource_group_name         = "my_terraform_rg_demo"
 resource_group_location     = "West Europe"
 virtual_network_name        = "vnetdemo"
