@@ -6,10 +6,10 @@
 To reproduce the lab:
 
 ```
-git clone https://github.com/can-er/bootcamp-az-terraform
-cd bootcamp-az-terraform
-terraform init
-terraform validate
-terraform plan
-terraform apply
+C:\Users\Username> git clone https://github.com/can-er/bootcamp-az-terraform
+C:\Users\Username> cd bootcamp-az-terraform
+C:\Users\Username\bootcamp-az-terraform> terraform init
+C:\Users\Username\bootcamp-az-terraform> terraform validate
+C:\Users\Username\bootcamp-az-terraform> terraform plan
+C:\Users\Username\bootcamp-az-terraform> terraform apply
 ```
