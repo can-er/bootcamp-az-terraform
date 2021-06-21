@@ -25,4 +25,4 @@ vm_ip = ...
 C:\Users\Username\bootcamp-az-terraform> ssh vmUsername@vmIp
 ```
 
-Note: Please edit *vm_username* and *vm_username* in *terraform.tfvars* file before doing any operation
+Note: Please edit *vm_username* and *vm_username* in **terraform.tfvars** file before doing any operation
