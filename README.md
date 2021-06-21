@@ -12,4 +12,15 @@ C:\Users\Username\bootcamp-az-terraform> terraform init
 C:\Users\Username\bootcamp-az-terraform> terraform validate
 C:\Users\Username\bootcamp-az-terraform> terraform plan
 C:\Users\Username\bootcamp-az-terraform> terraform apply
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+kv_id = ...
+tls_private_key = <sensitive>
+vault_uri = ...
+vm_id = ...
+vm_ip = ...
+
+C:\Users\Username\bootcamp-az-terraform> ssh vmUsername@vmIp
 ```
