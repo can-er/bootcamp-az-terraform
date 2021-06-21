@@ -15,7 +15,7 @@ C:\Users\Username\bootcamp-az-terraform> terraform init
 C:\Users\Username\bootcamp-az-terraform> terraform validate
 C:\Users\Username\bootcamp-az-terraform> terraform plan
 C:\Users\Username\bootcamp-az-terraform> terraform apply
-Apply complete! Resources: 12 added, 0 changed, 0 destroyed.
+Apply complete! Resources: 14 added, 0 changed, 0 destroyed.
 
 Outputs:
 
