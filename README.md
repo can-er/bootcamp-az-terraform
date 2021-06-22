@@ -10,7 +10,7 @@
 ----------------------------------------------
 To reproduce the lab:
 
-```
+```sh
 C:\Users\Username> git clone https://github.com/can-er/bootcamp-az-terraform
 C:\Users\Username> cd bootcamp-az-terraform
 C:\Users\Username\bootcamp-az-terraform> terraform init
@@ -32,3 +32,6 @@ C:\Users\Username\bootcamp-az-terraform> ssh vmUsername@vmIp
 ----------------------------------------------
 After doing these operations, all resources are available from Azure's dashboard:
 ![alt text](http://51.38.34.56/az_dashboard.PNG)
+----------------------------------------------
+Than you can SSH into the machine by getting the public IP. This can be made from Azure's CLI with the command ```az vm show --resource-group my_terraform_rg_demo --name linuxvmdemo -d --query [publicIps] -o tsv```. The following figure illustrates this:
+![alt text](http://51.38.34.56/az_vm.PNG) 
