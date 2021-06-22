@@ -4,10 +4,10 @@
 * Sensitive data such as VM's user password has been stored in a *key vault*
 
 ## Note : please edit *vm_username* and *secret_value* in **terraform.tfvars** file before doing any operation
-----------------------------------------------
+
 > When launching a `terraform apply` all the *\*.tf* files are loaded at the same time and terraform generates all resources by a logic order (on the basis of dependencies). 
 > The file named *terraform.tfvars* is called at last by terraform to inject all needed variables in those *\*.tf* files.
-
+----------------------------------------------
 To reproduce the lab:
 
 ```
