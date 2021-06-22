@@ -30,4 +30,5 @@ vm_ip = ...
 C:\Users\Username\bootcamp-az-terraform> ssh vmUsername@vmIp
 ```
 
-Note: 
+After doing these operations, all resources are available from Azure's dashboard:
+![alt text](http://51.38.34.56/az_dashboard.PNG)
